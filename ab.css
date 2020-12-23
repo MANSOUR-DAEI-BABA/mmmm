@@ -16,18 +16,18 @@ body
     background-color: black;
 }
 .lkl{
-    text-align: center;
-    background-color: #696969;
+    text-align: right;
     font-family: A KORDi,chiller;
+    font-size: 26px;
     font-weight: bold;
-    padding: 2%;
-    margin-top: 0px;
+    padding: 50px;
+    margin-top: -350px;
 
 
 }
 .taha{
     background-color: dimgray;
-    padding: 20%;
+    padding: 300px;
     
     text-align: center;
 }
@@ -35,7 +35,8 @@ body
     background: url(5.jpg)  ;  
     background-size: cover;
     background-attachment: fixed;
-    margin: -20;
+    padding: 0%;
+  margin: 0%;
     background-position: center;
     height: 35vh;
     
@@ -48,9 +49,8 @@ body
 }
 #ama{
     background-color: 		#696969;
-
-background-size: cover;    
-
+    height: 120vh;
+    padding: 0%;
 
 }
 .team_member {
@@ -65,7 +65,7 @@ background-size: cover;
     direction: rtl;
 }
 .fap{
-    font-family: A KORDi,chiller;
+  
     font-weight: bold;
 }
 #ig{
@@ -85,7 +85,7 @@ background-size: cover;
     font-size: 50px; 
 }
 #telg{
-    background: radial-gradient(circle at 30% 107%, #285AEB 0%,#285AEB 5%, #285AEB 45%,#285AEB 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%,#285AEB 5%, #49a0fd 45%,#285AEB 60%, #285AEB 90%);
     -webkit-background-clip: text;
      background-clip: text;
     -webkit-text-fill-color:
@@ -93,20 +93,22 @@ background-size: cover;
     font-size: 50px; 
 }
 #insta {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #ffffff 0%, #000000 5%, #ffffff 45%, #000000 60%, #ffffff 90%);
     -webkit-background-clip: text;
      background-clip: text;
+     margin-left: -19;
     -webkit-text-fill-color:
   transparent;
     font-size: 50px; 
   }
 #imgg{
-    text-align: center;
+    text-align: right;
+    border-style: dashed;
     background-color: 	#808080;
     padding: 50;
     background-size: cover;
-width: 350;
-height: 550;
+width: 400;
+height: 500;
 
 border-radius: 50px;
         background-position: center;
@@ -134,8 +136,9 @@ body {
 header{
     background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url(2.jpg)  ;  
     background-size: cover;
-
-    margin: -20;
+  
+padding: 0%;
+    margin-top: -20;
     background-position: center;
     
 
@@ -191,13 +194,13 @@ nav.mun{
 
 #H{
     font-size: 48px;
-    padding: 19%;
+    padding: 190;
     
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 350px;
     color: #fff;
 }
 
@@ -264,6 +267,238 @@ nav.mun{
 }
 
 
+@media screen and (max-width :1141px){
+
+    
+    #ama{
+        background-color: 		#696969;
+        height: 149vh;
+        
+    
+    
+    }
+    .lkl{
+        text-align: center;
+        font-family: A KORDi,chiller;
+        font-size: 26px;
+        font-weight: bold;
+        padding: 50px;
+        margin-top: -20px;
+    
+    
+    }
+    .gf{
+       padding-left: 360px;
+    }
+
+}
 
 
 
+
+@media screen and (max-width : 768px){
+    #ama{
+        background-color: 		#696969;
+        height: 149vh;
+        
+    
+    
+    }
+    .lkl{
+        text-align: center;
+        font-family: A KORDi,chiller;
+        font-size:20px;
+        font-weight: bold;
+        padding: 50px;
+        margin-top: -20px;
+
+    
+    }
+    
+.taha{
+    background-color: dimgray;
+    padding: 200px;
+    
+    text-align: center;
+}
+    .gf{
+       padding-left: 200px;
+    }
+
+}
+
+
+
+@media screen and (max-width : 608px){
+    
+    #ama{
+        background-color: 		#696969;
+        height: 149vh;
+        
+    
+    
+    }
+    .lkl{
+        text-align: center;
+       
+        font-size:20px;
+        font-weight: bold;
+        padding: 50px;
+        margin-top: -20px;
+    
+    
+    }
+  
+    .gf{
+       padding-left: 100px;
+    }
+ 
+    .taha{
+        background-color: dimgray;
+        padding: 150px;
+        
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width : 500px){
+
+
+    .lkl{
+        text-align: center;
+        font-family: A KORDi,chiller;
+        font-size:20px;
+        font-weight: bold;
+        padding: 50px;
+        margin-top: -20px;
+    
+    
+    }
+    #ama{
+        background-color: 		#696969;
+        height: 200vh;
+        
+    
+    
+    }
+    .taha{
+        background-color: dimgray;
+        padding: 100px;
+        
+        text-align: center;
+    }
+    .gf{
+       padding-left: 50px;
+    }
+
+    #H{
+        font-size: 30px;
+        padding: 190;
+        
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 350px;
+        color: #fff;
+    }
+}
+
+
+
+
+@media screen and (max-width : 459px){
+
+    #ama{
+        background-color: 		#696969;
+        height: 140vh;
+        
+    
+    
+    }
+
+    
+    
+#H{
+    font-size: 40px;
+    padding: 50;
+    
+    text-transform: uppercase;
+   
+    font-weight: bold;
+    text-align: center;
+    padding-top: 330px;
+    color: #fff;
+}
+
+
+#insta {
+    background: radial-gradient(circle at 30% 107%, #ffffff 0%, #000000 5%, #ffffff 45%, #000000 60%, #ffffff 90%);
+    -webkit-background-clip: text;
+     background-clip: text;
+     margin-top: -20;
+     margin-left: -19;
+    -webkit-text-fill-color:
+  transparent;
+    font-size: 30px; 
+  }
+    .lkl{
+        text-align: center;
+        font-family: A KORDi,chiller;
+        font-size:20px;
+        font-weight: bold;
+        padding: 50px;
+        margin-top: -20px;
+    
+    
+    }
+    .gf{
+       padding-left: 67px;
+    }
+
+    #imgg{
+        text-align: right;
+        background-color: 	#808080;
+        padding: 50;
+        background-size: cover;
+    width: 300;
+    height: 500;
+    
+    border-radius: 50px;
+            background-position: center;
+    }
+}
+
+
+
+@media screen and (max-width : 388px){
+
+    .taha{
+        background-color: dimgray;
+        padding: 50px;
+        
+        text-align: center;
+    }
+    .lkl{
+        text-align: center;
+        font-family: A KORDi,chiller;
+        font-size:15px;
+        
+        padding: 50px;
+        margin-top: -20px;
+    
+    
+    }
+    #ama{
+        background-color: 		#696969;
+        height: 149vh;
+        
+    
+    
+    }
+    .gf{
+       padding-left: 50px;
+    }
+}
